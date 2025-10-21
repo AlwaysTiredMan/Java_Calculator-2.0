@@ -20,10 +20,10 @@ public class Main {
         advancedCalc.divide();
         advancedCalc.displayResult("/");
 
-        ScientificCalculaotr Scc = new ScientificCalculaotr();
+        ScientificCalculaotr Scic = new ScientificCalculaotr();
 
-        Scc.setNumbers(2 , 10);
-        Scc.Square();
-        Scc.displayResult("^");
+        Scic.setNumbers(2 , 10);
+        Scic.Square();
+        Scic.displayResult("^");
     }
 }
