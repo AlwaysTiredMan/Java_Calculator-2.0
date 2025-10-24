@@ -2,7 +2,6 @@ public class Main {
     public static void main(String[] args) {
         Calculator Calc = new Calculator();
 
-
         Calc.setNumbers(10, 5);
         Calc.add();
         Calc.displayResult("+");
@@ -10,7 +9,7 @@ public class Main {
         Calc.subtract();
         Calc.displayResult("-");
 
-        Calculator advancedCalc = new Calculator();
+        AdvancedCalculator advancedCalc = new AdvancedCalculator();
 
         advancedCalc.setNumbers(20, 7);
         advancedCalc.multiply();
@@ -20,7 +19,7 @@ public class Main {
         advancedCalc.divide();
         advancedCalc.displayResult("/");
 
-        ScientificCalculaotr Scic = new ScientificCalculaotr();
+        ScientificCalculator Scic = new ScientificCalculator();
 
         Scic.setNumbers(2 , 10);
         Scic.Square();

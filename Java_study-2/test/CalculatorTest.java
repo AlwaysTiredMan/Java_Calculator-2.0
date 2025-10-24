@@ -31,6 +31,12 @@ class CalculatorTest {
         calc.setNumbers(20, 10);
         assertEquals(2, calc.divide(), "나눗셈 오류");
     }
+    @Test
+    void square() {
+        ScientificCalculator scic = new ScientificCalculator();
+        scic.setNumbers(2, 10);
+        assertEquals(1024, scic.Square());
+    }
 }
 
 // assertEquals
