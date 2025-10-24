@@ -9,7 +9,7 @@ public class Main {
         Calc.subtract();
         Calc.displayResult("-");
 
-        Calculator advancedCalc = new Calculator();
+        AdvancedCalculator advancedCalc = new AdvancedCalculator();
 
         advancedCalc.setNumbers(20, 7);
         advancedCalc.multiply();
@@ -18,5 +18,11 @@ public class Main {
         advancedCalc.setNumbers(9, 3);
         advancedCalc.divide();
         advancedCalc.displayResult("/");
+
+        ScientificCalculator Scic = new ScientificCalculator();
+
+        Scic.setNumbers(2 , 10);
+        Scic.Square();
+        Scic.displayResult("^");
     }
 }

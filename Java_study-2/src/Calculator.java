@@ -1,4 +1,5 @@
 class Calculator {
+
     protected int num1;
     protected int num2;
     protected int result;
@@ -25,14 +26,13 @@ class Calculator {
         }
 
         int tempResult = 0;
-        for (int i = 0; i < num2; i++) {
 
+        for (int i = 0; i < num2; i++) {
             tempResult += num1;
         }
         result = tempResult;
         return result;
     }
-
     public int divide() {
         if (num2 == 0) {
             System.out.println("0으로 나눌 수 없습니다.");
@@ -43,7 +43,6 @@ class Calculator {
             result = 0;
             return result;
         }
-
         int quotient = 0;
         int currentNum1 = num1;
         while (currentNum1 >= num2) {
