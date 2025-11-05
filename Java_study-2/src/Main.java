@@ -24,5 +24,11 @@ public class Main {
         Scic.setNumbers(2 , 10);
         Scic.Square();
         Scic.displayResult("^");
+
+        Factorial Fac = new Factorial();
+
+        Fac.setNumbers(5);
+        Fac.factorial();
+        Fac.displayResult("!");
     }
 }
